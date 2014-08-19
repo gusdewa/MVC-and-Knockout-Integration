@@ -328,16 +328,6 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MVCKnockOut.DAL\MVCKnockOut.DAL.csproj">
-      <Project>{0a48c102-f260-49a1-b1ba-1f8fb3655200}</Project>
-      <Name>MVCKnockOut.DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MVCKnockOut.Model\MVCKnockOut.Model.csproj">
-      <Project>{c0943fb3-71ec-4357-8bae-54d26b31e468}</Project>
-      <Name>MVCKnockOut.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
